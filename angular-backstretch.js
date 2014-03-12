@@ -3,7 +3,7 @@ angular.module('backstretch')
 	return {
 		restrict: 'A',
 		link: function (scope, element, attr) {
-				$(element).backstretch(attr.backgroundUrl);
+		    element.backstretch(attr.backgroundUrl);
 		}
 	}
 });
