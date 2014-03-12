@@ -1,4 +1,4 @@
-angular.module('backstretch')
+angular.module('backstretch', [])
 .directive('backstretch', function () {
 	return {
 		restrict: 'A',
